@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">OfflineBling</string>
+    <string name="action_info">Info</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="search_question">What do you want to know about?</string>
+    <string name="search_hint_prompt">Enter</string>
+    <string name="search_button_title">Go</string>
+    <string name="ask_a_question">Ask your question!</string>
+    <string name="post_button_title">Post</string>
+    <string name="answer_dialog_prompt">Edit/Submit Answer</string>
+    <string name="cancel_action">Cancel</string>
+    <string name="submit_action">Submit</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="list_options_array">
+        <item>Wikipedia</item>
+        <item>Wolfram Alpha</item>
+        <item>Ask a question</item>
+        <item>Helpful Questions</item>
+    </string-array>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ask_a_question"
+        android:id="@+id/ask_a_question_label"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140dp"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light" />
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_editText"
+        android:hint="@string/search_hint_prompt"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="sans-serif-light" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/post_button_title"
+        android:id="@+id/post_button"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="10dp"
+        android:fontFamily="sans-serif-light"
+        />
+</LinearLayout>

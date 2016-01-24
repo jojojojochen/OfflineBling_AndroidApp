@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="60dp"
+            android:id="@+id/linearLayout">
+
+
+            <TextView
+                android:id="@+id/faq_question_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="item"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/linearLayout"
+                android:layout_alignEnd="@+id/linearLayout"
+                android:layout_weight="1">
+            </TextView>
+
+            <TextView
+            android:id="@+id/faq_answer_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="item"
+            android:textSize="16sp"
+            android:textColor="#8C000000"
+            android:layout_gravity="center_vertical">
+        </TextView>
+            </LinearLayout>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/edit_button"
+            android:background="@drawable/pencil"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
